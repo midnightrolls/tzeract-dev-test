@@ -1,0 +1,64 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+dist/
+build/
+
+# Ignore logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore PyCharm files
+.idea/
+*.iml
+
+# Ignore Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore Flask instance folder
+instance/
+
+# Ignore the virtualenv
+venv/
+*.venv
+*.venv/
+.env
+.env/
+
+# Ignore pytest cache directory
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+.coverage/
+
+# Ignore compiled files
+*.pyc
+*.pyo
+*~
+*.bak
+*.swp
+*.bpy
+*py.class
+
+# Ignore all pycache
+**/__pycache__/
